@@ -1,0 +1,10 @@
+.idea
+.idea/
+.class
+exercises/exercise0/.idea
+exercises/exercise0/.idea/
+exercises/exercise0/.idea/*.iml
+exercises/exercise0/out/
+exercises/exercise0/*.iml
+*.iml
+*.xml
