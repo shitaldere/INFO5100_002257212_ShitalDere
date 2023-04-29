@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="709.0" prefWidth="731.0" styleClass="AnchorPane" stylesheets="@../css/decor.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalproject.ImageController">
+   <children>
+      <TilePane fx:id="fullImageTilePane" layoutX="19.0" layoutY="29.0" prefHeight="466.0" prefWidth="508.0" />
+      <Button fx:id="rotate" layoutX="311.0" layoutY="505.0" mnemonicParsing="false" onAction="#rotateClockwise" prefHeight="46.0" prefWidth="62.0" styleClass="Button" stylesheets="@../css/decor.css" />
+      <Slider fx:id="slider" blockIncrement="5.0" centerShape="false" layoutX="122.0" layoutY="515.0" majorTickUnit="0.2" max="0.0" min="-5.0" prefHeight="26.0" prefWidth="158.0" scaleShape="false" showTickMarks="true" styleClass="Slider" stylesheets="@../css/decor.css" value="0.5" />
+      <Button fx:id="save" layoutX="585.0" layoutY="331.0" mnemonicParsing="false" onAction="#saveButton" prefHeight="46.0" prefWidth="101.0" styleClass="Button-save" stylesheets="@../css/decor.css" text="Save" wrapText="true">
+         <font>
+            <Font name="Bell MT" size="19.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <ComboBox fx:id="comboBox" layoutX="561.0" layoutY="115.0" onAction="#comboBoxselect" prefWidth="150.0" styleClass="ComboBox" stylesheets="@../css/decor.css" />
+      <Label fx:id="label" alignment="CENTER" layoutX="31.0" layoutY="580.0" prefHeight="90.0" prefWidth="559.0" styleClass="Label" stylesheets="@../css/decor.css" text="Label" />
+   </children>
+</AnchorPane>

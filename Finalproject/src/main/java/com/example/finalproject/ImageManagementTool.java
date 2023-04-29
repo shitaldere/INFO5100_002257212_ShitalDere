@@ -19,10 +19,13 @@ public class ImageManagementTool extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        Parent root1 = FXMLLoader.load(getClass().getResource("hello-view.fxml"));
+
+        // show gallary window
+        Parent root1 = FXMLLoader.load(getClass().getResource("fxml/gallary-view.fxml"));
         Scene sc1 = new Scene(root1);
         sc1.getStylesheets().add("design.css");
         primaryStage.setScene(sc1);
+        primaryStage.setResizable(false);
         primaryStage.show();
 
     }

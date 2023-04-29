@@ -1,0 +1,107 @@
+
+.AnchorPane{
+      -fx-background-image :url("cream.jpg");
+}
+
+.Label{
+-fx-font-size: 14px;
+-fx-text-fill: #333333;
+-fx-font-family: "monospace";
+
+-fx-alignment: centre;
+
+    -fx-background-color: #fff;
+    -fx-border-color: #000000;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+}
+.Button-save{
+ -fx-background-color: #FFA500;
+   -fx-text-fill: #fff;
+   -fx-padding: 10px 20px;
+   -fx-border-radius: 5px;
+   -fx-font-size: 16px;
+   -fx-font-weight: bold;
+   -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.3) , 2 ,0 ,0 ,1 );
+
+}
+.Button-save:hover {
+  -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.6) , 4 ,0 ,0 ,2 );
+}
+
+.Button{
+ -fx-background-color: #cream; /* Set button background color */
+    -fx-background-radius:1px; /* Add rounded corners */
+
+    -fx-padding: 5px 10px; /* Add padding */
+    -fx-background-image: url("rotation.png"); /* Add image */
+    -fx-background-size: contain; /* Adjust image size */
+    -fx-background-repeat: no-repeat; /* Prevent image from repeating */
+    -fx-background-position: right; /* Center image on button */
+}
+
+.Slider {
+     -fx-padding: 0;
+     -fx-background-color: cream;
+ }
+
+ .Slider .thumb {
+     -fx-background-color: #0ff;
+     -fx-background-radius: 20;
+     -fx-background-insets: 0;
+     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 5, 0.5, 0, 1);
+ }
+
+ .Slider .thumb:hover {
+     -fx-background-color: #fff;
+ }
+
+ .Slider .thumb:pressed {
+     -fx-background-color: #00f;
+ }
+
+ /* customize the track */
+ .Slider .track {
+     -fx-background-color: #ddd;
+     -fx-background-radius: 10;
+     -fx-background-insets: 0;
+ }
+
+ .Slider .track:hover {
+     -fx-background-color: #ccc;
+ }
+
+ .Slider .track:pressed {
+     -fx-background-color: #bbb;
+ }
+
+ .Slider .track-fill {
+     -fx-background-color: #0ff;
+     -fx-background-radius: 10;
+ }
+
+ .ComboBox {
+   -fx-background-color: #fff;
+   -fx-border-color: #ccc;
+   -fx-border-radius: 5px;
+   -fx-font-size: 14px;
+ }
+
+ .ComboBox:hover {
+   -fx-background-color: #f7f7f7;
+ }
+
+ .ComboBox arrow-button {
+   -fx-background-color: #fff;
+   -fx-background-radius: 0 5px 5px 0;
+   -fx-border-color: #ccc;
+   -fx-border-width: 0 1px 1px 0;
+ }
+
+ .ComboBox arrow-button:hover {
+   -fx-background-color: #f7f7f7;
+ }
+
+ .ComboBox arrow {
+   -fx-padding: 5px;
+ }

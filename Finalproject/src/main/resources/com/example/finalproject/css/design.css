@@ -1,0 +1,18 @@
+.AnchorPane{
+      -fx-background-image :url("text.jpg");
+}
+
+
+.Button{
+   -fx-background-color: linear-gradient(#f0ff35, #a9ff00);
+      -fx-background-radius: 30;
+      -fx-font-size: 15;
+      -fx-text-fill: black;
+      -fx-padding: 10 20;
+      -fx-effect: dropshadow(gaussian, rgba(255,255,255,0.8), 10, 0, 0, 2);
+  }
+
+  .Button:hover {
+      -fx-effect: dropshadow(gaussian, #ff2d2d, 10, 0, 0, 2);
+  }
+
