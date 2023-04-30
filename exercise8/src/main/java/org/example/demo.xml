@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BookShelf>
+    <Book>
+        <title>Art of Living</title>
+        <publishedYear>2004</publishedYear>
+        <numberOfPages>234</numberOfPages>
+        <authors>
+            <author>Grant Snider</author>
+        </authors>
+    </Book>
+    <Book>
+        <title>Head First Java</title>
+        <publishedYear>2016</publishedYear>
+        <numberOfPages>345</numberOfPages>
+        <authors>
+            <author>Test Author</author>
+            <author>Alex Steel</author>
+        </authors>
+    </Book>
+    <Book>
+        <title>System Design Volume 1</title>
+        <publishedYear>2020</publishedYear>
+        <numberOfPages>189</numberOfPages>
+        <authors>
+            <author>Alex Xu</author>
+        </authors>
+    </Book>
+</BookShelf>
