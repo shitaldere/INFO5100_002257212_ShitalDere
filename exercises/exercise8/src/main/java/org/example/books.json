@@ -1,0 +1,30 @@
+{
+  "BookShelf": {
+    "Book": [
+      {
+        "title": "Art of Living",
+        "publishedYear": "2004",
+        "numberOfPages": "234",
+        "authors": {
+          "author": "Grant Snider"
+        }
+      },
+      {
+        "title": "Head First Java",
+        "publishedYear": "2016",
+        "numberOfPages": "345",
+        "authors": {
+          "author": ["Test Author", "Alex Steel"]
+        }
+      },
+      {
+        "title": "System Design Volume 1",
+        "publishedYear": "2020",
+        "numberOfPages": "189",
+        "authors": {
+          "author": "Alex Xu"
+        }
+      }
+    ]
+  }
+}
